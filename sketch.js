@@ -28,7 +28,27 @@ function setup() {
 }
 
 function draw() {
-  background(0);//Posição e tamanho da bolinha
+  background(0);
+  mostraBolinha();
+  movimentaBolinha();
+  colideBorda();
+  mostraRaquete();
+  movimentaRaquete();
+  mostraRaqueteOponente();
+  movimentaRaqueteOponente();
+  colisaoRaqueteOponente();
+  incluirPlacar();
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  //Posição e tamanho da bolinha
 2
 let xBolinha = 300;
 3
