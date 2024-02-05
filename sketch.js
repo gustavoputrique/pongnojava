@@ -34,11 +34,12 @@ function draw() {
   colideBorda();
   mostraRaquete();
   movimentaRaquete();
+  colideRaquete();
   mostraRaqueteOponente();
   movimentaRaqueteOponente();
   colisaoRaqueteOponente();
   incluirPlacar();
-  
+  marcaPontos();
   
   
   
